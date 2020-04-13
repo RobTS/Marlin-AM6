@@ -517,11 +517,11 @@
       #define BEEPER_PIN                      37
 
       #if ENABLED(CR10_STOCKDISPLAY)
-        #define BTN_EN1                       17
-        #define BTN_EN2                       23
+        #define BTN_EN1                       23
+        #define BTN_EN2                       17
       #else
-        #define BTN_EN1                       31
-        #define BTN_EN2                       33
+        #define BTN_EN1                       33
+        #define BTN_EN2                       31
       #endif
 
       #define BTN_ENC                         35
@@ -585,8 +585,8 @@
       #define BEEPER_PIN                      23
       #define LCD_BACKLIGHT_PIN               33
 
-      #define BTN_EN1                         35
-      #define BTN_EN2                         37
+      #define BTN_EN1                         37
+      #define BTN_EN2                         35
       #define BTN_ENC                         31
 
       #define LCD_SDSS                      SDSS
@@ -692,8 +692,8 @@
         #define BTN_EN2                       63  // AUX2 PIN 4
         #define BTN_ENC                       49  // AUX3 PIN 7
       #else
-        #define BTN_EN1                       37
-        #define BTN_EN2                       35
+        #define BTN_EN1                       35
+        #define BTN_EN2                       37
         #define BTN_ENC                       31
       #endif
 
